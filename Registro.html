@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsitro</title>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="stylesheet" href="Registro.css">
+</head>
+<body>
+    <main>
+        <!--Barra de navegacion-->
+        <header>
+            <!--Listas-->
+            <nav>
+                <a id="a-nav" href="Home.html">Home</a>
+                <a id="a-nav" href="">Blog</a>
+                <a id="a-nav" href="Registro.html">Registro</a>
+                <a id="a-nav" href="">Contactanos</a>
+            </nav>
+            <figure id="figMain">
+                <h1>Salud Vital</h1>
+            </figure>
+            
+        </header>
+        <!--Contenido Principal-->
+        <h2 id="tituloSeccion">Formulario</h2>
+        <section>
+            <form action="">
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                
+                <div>
+                    <label for="">Fecha de Nacimiento</label>
+                    <input type="date" name="" id="">
+                </div>
+                
+                <div>
+                    <label for="">Correo Electronico</label>
+                    <input type="email" name="" id="" placeholder="Correo Electronico">
+                </div>
+                
+                <div>
+                    <label for="">Telefono</label>
+                    <input type="text" placeholder="Telefono">
+                </div>
+                
+
+                
+                <div id="genDiv">
+                    <label for="">Genero</label>
+                    <div><label for="">Masculino</label><input type="radio" name="" id=""></div>
+                    <div><label for="">Femenino</label><input type="radio" name="" id=""></div>
+                </div>
+
+                <div>
+                    <label for="">Direccion</label>
+                    <input type="text" placeholder="Direccion">
+                </div>
+                
+
+
+                <div id="medidas">
+                    <div><label for="">Peso</label><input type="text" placeholder="Peso"></div>
+                    <div><label for="">Altura</label><input type="text" placeholder="Altura"></div>
+                </div>
+                 
+
+                <div>
+                     <label for="">Nivel de Actividad</label>
+                    <select name="" id="">
+                        <option value="">Sedentario</option>
+                        <option value="">Ligero</option>
+                        <option value="">Moderado</option>
+                        <option value="">Intenso</option>
+                    </select>
+                </div>
+               
+                <div>
+                    <label for="">Objetivo Nutricional</label>
+                    <div id="objNutri">
+                        <label for="">Perder Peso</label><input type="checkbox" name="" id="">
+                        <label for="">Ganar Masa Muscular</label><input type="checkbox" name="" id="">
+                        <label for="">Mejorar Salud</label><input type="checkbox" name="" id="">
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="">Alergias o Restricciones alimentarias</label>
+                    <textarea name="" id="" placeholder="Escriba sus alergio o restricciones alimentarias"></textarea>
+                </div>
+                
+                <div>
+                   <label for="agua">Cantidad diaria de agua consumida:</label>
+                    <input type="range" id="agua" min="0" max="5" step="0.5" value="2"
+                    oninput="litros.value = agua.value">
+                    <div id="agua"><span>Su Cantidad de agua consumida: </span><output id="litros">  2 </output> <span> L</span></div> 
+                </div>
+                
+                <div>
+                    <label for="">Foto de alimentos comunes</label>
+                    <input type="file" name="" id="">
+                </div>
+                
+                <div>
+                    <label for="">Hora habitual de la comida principal</label>
+                    <input type="time" name="" id="">
+                </div>
+                
+                <div id="contEnviar">
+                    <button id="enviar">Enviar</button>
+                </div>
+                
+            </form>
+        </section>
+
+        <footer>
+            <!--Pie de Pagina-->
+           <div id="Preguntas">
+            <h3>Preguntas Frecuentes</h3>
+            <p>Como bajar de peso?</p>
+            <p>Que significa llevar una dieta balanceada</p>
+            <p>El agua realmente ayuda a bajar de peso?</p>
+           </div> 
+
+           <div id="privacidad">
+            <h3>Privacidad</h3>
+            <p>Termino y condiciones</p>
+            <p>Derechos Reservados</p>
+            <select name="" id="">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+           </div>
+        </footer>
+    </main>
+</body>
+</html>
